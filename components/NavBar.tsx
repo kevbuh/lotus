@@ -13,11 +13,11 @@ function NavBar() {
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal p-0">
-            <li>
+            {/* <li>
               <Link href="/about">
                 <a>About</a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/mission">
                 <a>Mission</a>
