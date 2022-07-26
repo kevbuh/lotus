@@ -71,10 +71,10 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="mx-auto mb-8 text-4xl font-semibold">Founders</div>
+        <div className="mx-auto mb-8 text-4xl font-semibold">Team</div>
         <div className="mx-auto mb-64">
           <p className="text-xl font-light mb-8 text-center mx-auto">
-            Get to know the early founders of this organization
+            Get to know the team members of this organization
           </p>
           <div className="flex">
             <div className="avatar flex items-center mx-auto flex-wrap gap-4">
