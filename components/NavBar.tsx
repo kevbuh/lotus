@@ -22,8 +22,12 @@ function NavBar() {
               <div className="dropdown">
                 <label className="btn m-1">Our Work</label>
                 <ul className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Item 1</a></li>
-                  <li><a>Item 2</a></li>
+                  <li>
+                    <a>Item 1</a>
+                  </li>
+                  <li>
+                    <a>Item 2</a>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -40,7 +44,7 @@ function NavBar() {
             </li>
             <li>
               <Link href="/donate">
-                <a className="p-4 bg-deep rounded-xl font-bold">Donate</a>
+                <a className="">Donate</a>
               </Link>
             </li>
           </ul>
