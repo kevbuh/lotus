@@ -3,7 +3,7 @@ import Link from "next/link";
 function NavBar() {
   return (
     <>
-      <div className="navbar bg-white">
+      <div className="navbar bg-white text-lg font-semibold">
         <div className="flex-1">
           <Link href="/">
             <a className="btn btn-ghost normal-case text-xl">

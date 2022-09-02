@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const InvolvedCard = ({ title, caption, buttonTitle }: any) => {
   return (
@@ -18,42 +19,22 @@ const InvolvedCard = ({ title, caption, buttonTitle }: any) => {
 function Hero() {
   return (
     <>
-      <div className="hero my-56">
-        <div className="hero-overlay"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-lg">
-            <div
-              className="text-6xl font-semibold mb-4
-            bg-gradient-to-r bg-clip-text  text-transparent 
-            from-lotus via-pink-400 to-red-400
-            animate-text"
-            >
-              Lotus Foundation{" "}
-            </div>
-            <p className="mb-5">A Non-Profit Company based in Boulder, CO.</p>
-            {/* <button className="btn btn-ghost  font-bold  bg-stone-100">
-            Learn More
-          </button> */}
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 mx-auto mt-16 cursor-pointer"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
-                />
-              </svg>
-            </div>
-          </div>
+      <div className="grid  gap-8 pb-64 pt-40 bg-[url('http://bldrfly.com/wp-content/uploads/2020/07/flatiron-winter-headerr.jpg')]">
+        <div className="p-8 bg-white mx-auto flex flex-col rounded-xl">
+          <p className="mb-8 text-6xl mx-auto font-bold text-center flex">
+            Lotus Foundation
+          </p>
+          <p className="text-center text-lg">Boulder Based Non-Profit</p>
         </div>
+        {/* <div className="flex my-auto">
+          <img
+            src="http://bldrfly.com/wp-content/uploads/2020/07/flatiron-winter-headerr.jpg"
+            alt="Boulder Flatirons"
+            width={600}
+          />
+        </div> */}
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col mt-24">
         <div className="flex flex-col mx-auto max-w-4xl">
           <div className="mb-8 text-5xl mr-auto font-bold text-center flex ">
             Our Mission
