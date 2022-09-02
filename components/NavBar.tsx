@@ -19,13 +19,12 @@ function NavBar() {
               </Link>
             </li>
             <li>
-              <div className="dropdown">
-                <label className="btn m-1">Our Work</label>
-                <ul className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Item 1</a></li>
-                  <li><a>Item 2</a></li>
-                </ul>
-              </div>
+              <a>Our Work</a>
+              <ul className="p-2 bg-base-100">
+                <li><a href="/sustainability">Sustainability</a></li>
+                <li><a href="/unhousedPopulations">Unhoused Populations</a></li>
+                <li><a href="/education">Education</a></li>
+              </ul>
             </li>
             <li>
               <Link href="/contact">
