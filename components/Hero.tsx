@@ -51,7 +51,7 @@ function Hero() {
         <div className="mx-auto my-8 text-4xl font-semibold">Services</div>
         <div className="mx-auto mb-32">
           <p className="text-xl font-light mb-8 text-center">
-            Here's how we can help
+            Here&apos;s how we can help
           </p>
           <div className="grid grid-rows-2 md:grid-cols-2 gap-8 ">
             <div className="card w-96 bg-base-100 shadow-xl mx-auto">
