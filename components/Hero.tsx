@@ -1,5 +1,19 @@
 import React from "react";
 
+const InvolvedCard = ({ title, caption, buttonTitle }: any) => {
+  return (
+    <div className="h-80">
+      <div className="h-32">
+        <p className="m-2 font-bold text-3xl">{title}</p>
+        <p className="m-2 text-xl">{caption}</p>
+      </div>
+      <button className="bg-red-100 rounded-xl p-3 text-xl font-bold mt-auto">
+        {buttonTitle}
+      </button>
+    </div>
+  );
+};
+
 function Hero() {
   return (
     <>
@@ -38,42 +52,45 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className=" flex flex-col">
-        <div className="mx-auto my-8 text-4xl font-semibold">Our Mission</div>
-        <div className="mx-auto mb-40">
-          <p className="text-xl font-light card max-w-xl mb-8 text-center px-4 py-12 rounded-xl border-4 border-stone-100">
-            The Lotus Foundation provides a platform for students to engage in
-            community service projects in neighboring communities and advocate
-            issues with local leaders.
-          </p>
-          <p className="underline">Learn More</p>
-        </div>
-        <div className="mx-auto my-8 text-4xl font-semibold">Services</div>
-        <div className="mx-auto mb-32">
-          <p className="text-xl font-light mb-8 text-center">
-            Here&apos;s how we can help
-          </p>
-          <div className="grid grid-rows-2 md:grid-cols-2 gap-8 ">
-            <div className="card w-96 bg-base-100 shadow-xl mx-auto">
-              <div className="card-body">
-                <h2 className="card-title">Inclusivity</h2>
-                <p>
-                  One of our main priorities is keeping Boulder Colorado an
-                  inclusive place.
-                </p>
-              </div>
-            </div>
-            <div className="card w-96 bg-base-100 shadow-xl mx-auto">
-              <div className="card-body">
-                <h2 className="card-title">Equality</h2>
-                <p>
-                  It is essential to us to provide services for equal chance
-                  world.
-                </p>
-              </div>
-            </div>
+      <div className="flex flex-col">
+        <div className="flex flex-col mx-auto max-w-4xl">
+          <div className="mb-8 text-5xl mr-auto font-bold text-center flex ">
+            Our Mission
+          </div>
+          <div className="mx-auto mb-40 flex flex-col">
+            <p className="my-4 text-xl">
+              The Lotus Foundation provides a platform for students to engage in
+              community service projects in neighboring communities and advocate
+              issues with local leaders.
+            </p>
+            <p className="bg-red-100 rounded-xl py-3 text-xl font-bold max-w-xs text-center mt-4">
+              Learn More
+            </p>
           </div>
         </div>
+
+        <div className="flex flex-col mx-auto">
+          <p className="mb-8 text-5xl mr-auto font-bold">Get Involved</p>
+          <div className="grid grid-cols-3 gap-4 mx-auto max-w-4xl">
+            <InvolvedCard
+              title="Volunteer Opportunities"
+              caption="We need volunteers to"
+              buttonTitle="Volunteer"
+            />
+            <InvolvedCard
+              title="Make a Donation"
+              caption="With your contributions, blha"
+              buttonTitle="Donate"
+            />
+
+            <InvolvedCard
+              title="Advocate"
+              caption="Join our advocacy group"
+              buttonTitle="Advocate"
+            />
+          </div>
+        </div>
+
         <div className="mx-auto mb-8 text-4xl font-semibold">Team</div>
         <div className="mx-auto mb-64">
           <p className="text-xl font-light mb-8 text-center mx-auto">
