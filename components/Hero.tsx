@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Hero() {
@@ -45,8 +46,8 @@ function Hero() {
             The Lotus Foundation provides a platform for students to engage in
             community service projects in neighboring communities and advocate
             issues with local leaders.
-          </p>
-          <p className="underline">Learn More</p>
+          </p> 
+          <Link href="/about"><p className="underline cursor-pointer">Learn More</p></Link>
         </div>
         <div className="mx-auto my-8 text-4xl font-semibold">Services</div>
         <div className="mx-auto mb-32">
