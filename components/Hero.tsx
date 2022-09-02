@@ -46,6 +46,7 @@ function Hero() {
             community service projects in neighboring communities and advocate
             issues with local leaders.
           </p>
+          <p className="underline">Learn More</p>
         </div>
         <div className="mx-auto my-8 text-4xl font-semibold">Services</div>
         <div className="mx-auto mb-32">
