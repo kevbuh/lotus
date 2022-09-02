@@ -65,9 +65,9 @@ function Hero() {
               issues with local leaders.
             </p>
             <Link href="/about">
-            <p className="bg-red-100 rounded-xl py-3 text-xl font-bold max-w-xs text-center mt-4">
-              Learn More
-            </p>
+              <p className="bg-red-100 rounded-xl py-3 text-xl font-bold max-w-xs text-center mt-4 cursor-pointer">
+                Learn More
+              </p>
             </Link>
           </div>
         </div>
