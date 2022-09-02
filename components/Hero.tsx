@@ -41,8 +41,10 @@ function Hero() {
       <div className=" flex flex-col">
         <div className="mx-auto my-8 text-4xl font-semibold">Mission</div>
         <div className="mx-auto mb-40">
-          <p className="text-xl font-light card w-96 mb-8 text-center px-4 py-12 rounded-xl shadow-xl">
-            The Lotus Foundation strives to help wellness in Boulder, Colorado.
+          <p className="text-xl font-light card max-w-xl mb-8 text-center px-4 py-12 rounded-xl border-4 border-stone-100">
+            The Lotus Foundation provides a platform for students to engage in
+            community service projects in neighboring communities and advocate
+            issues with local leaders.
           </p>
         </div>
         <div className="mx-auto my-8 text-4xl font-semibold">Services</div>

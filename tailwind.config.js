@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         lotus: "#e6007a",
         petal: "#50e3c2 ",
+        deep: "#123693",
       },
     },
     fontFamily: {
