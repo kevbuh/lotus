@@ -13,7 +13,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ["-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto"],
+      sans: ["ui-monospace", "Arial", "Segoe UI", "Roboto"],
     },
   },
   plugins: [require("daisyui")],
