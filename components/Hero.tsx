@@ -39,7 +39,7 @@ function Hero() {
         </div>
       </div>
       <div className=" flex flex-col">
-        <div className="mx-auto my-8 text-4xl font-semibold">Mission</div>
+        <div className="mx-auto my-8 text-4xl font-semibold">Our Mission</div>
         <div className="mx-auto mb-40">
           <p className="text-xl font-light card max-w-xl mb-8 text-center px-4 py-12 rounded-xl border-4 border-stone-100">
             The Lotus Foundation provides a platform for students to engage in
