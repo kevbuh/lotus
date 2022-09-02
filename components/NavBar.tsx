@@ -39,7 +39,7 @@ function NavBar() {
             </li>
             <li>
               <Link href="/donate">
-                <a className="p-4 bg-deep rounded-xl font-bold">Donate</a>
+                <a className="">Donate</a>
               </Link>
             </li>
           </ul>
