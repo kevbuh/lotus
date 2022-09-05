@@ -4,13 +4,13 @@ import React from "react";
 function Footer() {
   return (
     <footer className="py-20 md:px-16 font-semibold flex mx-auto flex-col border-t-2">
-      <div className="footer grid-cols-2 lg:grid-cols-4 mb-2 text-xl ">
+      <div className="footer grid-cols-1 lg:grid-cols-4 mb-2 text-xl ">
         <div className="flex flex-col mx-auto">
           <a className="link link-hover text-2xl text-center">
             LOTUS FOUNDATION
           </a>
         </div>
-        <div className="flex flex-col mx-auto text-center text-sm md:text-xl">
+        <div className="flex flex-col mx-auto text-center ">
           <a className="link link-hover"> &copy; 2022 Lotus Foundation</a>
           <a className="link link-hover">720-1168-9539</a>
           <a className="link link-hover">sudarshand@lotuscolorado.org</a>

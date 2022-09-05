@@ -6,8 +6,8 @@ const InvolvedCard = ({ title, caption, buttonTitle }: any) => {
   return (
     <div className="h-80">
       <div className="h-40">
-        <p className="my-2 font-bold text-3xl">{title}</p>
-        <p className="my-2 text-xl">{caption}</p>
+        <p className="my-2 font-bold text-lg md:text-3xl">{title}</p>
+        <p className="my-2 md:text-xl">{caption}</p>
       </div>
       <Link href={`${buttonTitle.toLowerCase()}`}>
         <button className="bg-red-50 rounded-xl py-3 text-xl font-bold mt-auto max-w-sm w-full">
@@ -20,13 +20,13 @@ const InvolvedCard = ({ title, caption, buttonTitle }: any) => {
 
 const TeamCard = ({ name, caption, image }: any) => {
   return (
-    <div className="h-80 mt-4">
+    <div className="h-48 sm:h-80 my-4 text-white sm:text-black">
       <div className={`h-16 sm:h-28 md:h-40 bg-stone-100`}>
         <img src={image} alt={name} width={300} height={400} />
       </div>
-      <div className="h-40 pt-20">
-        <p className="my-2 font-bold text-2xl ">{name}</p>
-        <p className="my-2 text-xl">{caption}</p>
+      <div className="h-40 pt-8 sm:pt-48 md:pt-20">
+        <p className="my-2 font-bold sm:text-2xl ">{name}</p>
+        <p className="my-2 sm:text-xl">{caption}</p>
       </div>
     </div>
   );
@@ -35,9 +35,9 @@ const TeamCard = ({ name, caption, image }: any) => {
 function Hero() {
   return (
     <>
-      <div className="grid gap-8 pb-64 pt-40 bg-[url('https://images.squarespace-cdn.com/content/v1/5fa1ea8264297e61cafdeed9/1604453251605-MNNOBV4IJS8DAJVLJEH8/image-asset.jpeg')] ">
-        <div className=" mx-auto flex flex-col rounded-xl">
-          <p className="text-5xl md:text-7xl  mx-auto font-bold text-center flex mb-8 md:mb-16">
+      <div className="py-40 bg-[url('https://images.squarespace-cdn.com/content/v1/5fa1ea8264297e61cafdeed9/1604453251605-MNNOBV4IJS8DAJVLJEH8/image-asset.jpeg')] ">
+        <div className="mx-auto flex flex-col rounded-xl">
+          <p className="text-5xl md:text-7xl mx-auto font-bold text-center flex mb-8 md:mb-16">
             LOTUS FOUNDATION
           </p>
           <p className="text-center md:text-xl max-w-sm flex mx-auto">
@@ -45,15 +45,8 @@ function Hero() {
             leaders.
           </p>
         </div>
-        {/* <div className="flex my-auto">
-          <img
-            src="http://bldrfly.com/wp-content/uploads/2020/07/flatiron-winter-headerr.jpg"
-            alt="Boulder Flatirons"
-            width={600}
-          />
-        </div> */}
       </div>
-      <div className="flex flex-col mt-24 mx-6 md:mx-0">
+      <div className="flex flex-col mt-24 px-3 md:mx-0">
         <div className="flex flex-col mx-auto max-w-3xl">
           <div className="mb-8 text-5xl mr-auto font-bold text-center flex ">
             Our Mission
@@ -96,7 +89,7 @@ function Hero() {
 
         <div className="flex flex-col mx-auto pt-16 pb-32">
           <p className="mb-8 text-5xl mr-auto font-bold">Team Members</p>
-          <div className="grid grid-cols-3 gap-8 mx-auto max-w-3xl">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mx-auto max-w-3xl">
             <TeamCard
               name="Sudarshan Damodharan"
               caption="Co-Founder"
