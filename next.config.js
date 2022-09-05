@@ -10,6 +10,7 @@ const nextConfig = {
       "www.kevinbuhler.com",
       "marketplace.canva.com",
       "c4.wallpaperflare.com",
+      "media-exp1.licdn.com",
     ],
   },
 };

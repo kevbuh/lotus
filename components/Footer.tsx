@@ -3,13 +3,19 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="py-20 px-16 bg-red-50 font-semibold flex mx-auto flex-col">
-      <div className="footer grid-cols-3 mb-2 mx-auto text-md">
-        <div className="flex flex-col ml-auto">
-          <a className="link link-hover">Info </a>
-          <a className="link link-hover">About </a>
-        </div>
+    <footer className="py-20 md:px-16 font-semibold flex mx-auto flex-col border-t-2">
+      <div className="footer grid-cols-2 lg:grid-cols-4 mb-2 text-xl ">
         <div className="flex flex-col mx-auto">
+          <a className="link link-hover text-2xl text-center">
+            LOTUS FOUNDATION
+          </a>
+        </div>
+        <div className="flex flex-col mx-auto text-center text-sm md:text-xl">
+          <a className="link link-hover"> &copy; 2022 Lotus Foundation</a>
+          <a className="link link-hover">720-1168-9539</a>
+          <a className="link link-hover">sudarshand@lotuscolorado.org</a>
+        </div>
+        <div className="flex flex-col mx-auto text-center">
           <Link href="/volunteer">
             <a className="link link-hover">Join Us</a>
           </Link>
@@ -17,10 +23,9 @@ function Footer() {
           <a className="link link-hover">Volunteer</a>
           <a className="link link-hover">Donate</a>
         </div>
-        <div className="flex flex-col mx-auto">
-          <a className="link link-hover"> &copy; 2022 Lotus Foundation</a>
-          <a className="link link-hover">720-1168-9539</a>
-          <a className="link link-hover">sudarshand@lotuscolorado.org</a>
+        <div className="flex flex-col mx-auto text-center">
+          <a className="link link-hover">Info </a>
+          <a className="link link-hover">About </a>
         </div>
       </div>
 
