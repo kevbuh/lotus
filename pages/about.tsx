@@ -14,9 +14,7 @@ function About() {
   return (
     <HomeLayout>
       <div className="flex flex-col mx-auto max-w-2xl">
-        <p className="text-6xl font-bold mt-20 mx-auto flex mb-32 underline">
-          About
-        </p>
+        <p className="text-6xl font-bold mt-20 mx-auto flex mb-48 ">About</p>
 
         <div className="flex flex-col mx-auto max-w-3xl">
           <div className="mb-8 text-5xl mr-auto font-bold text-center flex ">

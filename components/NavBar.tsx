@@ -5,16 +5,16 @@ function NavBar() {
     <>
       <div className="navbar bg-white md:text-xl font-semibold  pt-4">
         <div className="flex-1">
+          {/* <a className="btn btn-ghost  md:text-2xl">Lotus Foundation</a>
+           */}
           <Link href="/">
-            {/* <a className="btn btn-ghost  md:text-2xl">Lotus Foundation</a>
-             */}
             <svg
               width="52"
               height="33"
               viewBox="0 0 52 33"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="ml-2 md:ml-8 cursor-pointer"
+              className=" md:ml-8 cursor-pointer"
             >
               <path
                 d="M23.7535 2.0821C22.6613 3.24262 21.569 4.53966 21.296 4.94926C20.784 5.73431 20.8181 5.80258 22.1151 6.96309C22.8661 7.64575 23.9924 8.97693 24.6068 9.89852C25.2554 10.8201 25.8697 11.6052 25.9721 11.6052C26.1087 11.6052 26.5865 11.0249 27.0644 10.3081C27.5081 9.59132 28.6345 8.29427 29.4878 7.40682C30.9555 5.97324 31.0579 5.73431 30.6825 5.05166C30.2046 4.13007 26.2793 0 25.9039 0C25.7674 0 24.8116 0.921586 23.7535 2.0821Z"
@@ -34,8 +34,14 @@ function NavBar() {
               />
             </svg>
           </Link>
+          <Link href="/">
+            <div className="invisible md:visible text-sm pl-2 cursor-pointer">
+              <p>LOTUS</p>
+              <p>FOUNDATION</p>
+            </div>
+          </Link>
         </div>
-        <div className="grid grid-cols-4 md:gap-4 mr-2 md:mr-8">
+        <div className="grid grid-cols-4 gap-2 md:gap-4 mr-4 md:mr-8">
           <Link href="/about">
             <a>About</a>
           </Link>

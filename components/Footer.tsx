@@ -12,7 +12,7 @@ function Footer() {
         </div>
         <div className="flex flex-col mr-auto md:mx-auto  text-center ">
           <a className="link link-hover"> &copy; 2022 Lotus Foundation</a>
-          <a className="link link-hover">720-1168-9539</a>
+          <a className="link link-hover">720-468-9539</a>
           <a className="link link-hover">sudarshand@lotuscolorado.org</a>
         </div>
         <div className="flex flex-col mr-auto md:mx-auto text-center">
