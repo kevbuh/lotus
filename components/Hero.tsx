@@ -35,7 +35,7 @@ const TeamCard = ({ name, caption, image }: any) => {
 function Hero() {
   return (
     <>
-      <div className="py-40 bg-[url('https://raw.githubusercontent.com/kevbuh/lotus/main/public/flatirons-hd.jpg')] ">
+      <div className="py-40 max-w-8xl bg-[url('https://raw.githubusercontent.com/kevbuh/lotus/main/public/flatirons-hd.jpg')] ">
         <div className="mx-auto flex flex-col rounded-xl">
           <svg
             width="132"
