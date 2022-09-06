@@ -35,7 +35,7 @@ const TeamCard = ({ name, caption, image }: any) => {
 function Hero() {
   return (
     <>
-      <div className="py-40 bg-[url('https://images.squarespace-cdn.com/content/v1/5fa1ea8264297e61cafdeed9/1604453251605-MNNOBV4IJS8DAJVLJEH8/image-asset.jpeg')] ">
+      <div className="py-40 bg-[url('flatirons-hd.jpg')] ">
         <div className="mx-auto flex flex-col rounded-xl">
           <p className="text-5xl md:text-7xl mx-auto font-bold text-center flex mb-8 md:mb-16">
             LOTUS FOUNDATION
@@ -104,13 +104,13 @@ function Hero() {
             <TeamCard
               name="Nihal Pandra"
               caption="Co-Founder"
-              image="IMG_8929 2.jpg"
+              image="IMG_0299 4.jpg"
             />
 
             <TeamCard
               name="Kevin Buhler"
               caption="CTO"
-              image="https://pbs.twimg.com/profile_images/1537269080419274752/sfuDdauh_400x400.jpg"
+              image="https://media-exp1.licdn.com/dms/image/C5603AQHKhhxg-Bc4gA/profile-displayphoto-shrink_400_400/0/1662418732045?e=1668038400&v=beta&t=EUjZfjk4Id4MFFia_tzIxEa9-RvPGC-rsho3f1W2S9U"
             />
             <TeamCard
               name="Ian von Pechmann"
