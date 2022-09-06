@@ -29,7 +29,7 @@ function Footer() {
         </div>
       </div>
 
-      <p className="text-sm max-w-xl text-center flex mb-8 mt-16 mx-auto">
+      <p className="text-sm text-stone-500 max-w-xl text-center flex mb-8 mt-16 mx-auto">
         The Lotus Foundation is a Non-Profit Corporation created under the
         Colorado Secretary of State. At this time all donations are not
         tax-deductible.
