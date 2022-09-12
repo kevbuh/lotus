@@ -10,7 +10,7 @@ const InvolvedCard = ({ title, caption, buttonTitle }: any) => {
         <p className="my-2 md:text-xl">{caption}</p>
       </div>
       <Link href={`${buttonTitle.toLowerCase()}`}>
-        <button className="bg-red-50 rounded-xl py-3 text-xl font-bold mt-auto max-w-sm w-full">
+        <button className="bg-red-50 rounded-xl py-3 text-xl font-bold mt-auto max-w-sm w-full hover:bg-red-200">
           {buttonTitle}
         </button>
       </Link>
@@ -18,17 +18,25 @@ const InvolvedCard = ({ title, caption, buttonTitle }: any) => {
   );
 };
 
-const TeamCard = ({ name, caption, image }: any) => {
+const TeamCard = ({ name, caption, image, linkedin }: any) => {
   return (
-    <div className="h-48 sm:h-80 my-4 text-white sm:text-black">
-      <div className={`h-16 sm:h-28 md:h-40 bg-stone-100`}>
-        <img src={image} alt={name} width={300} height={400} />
+    <Link href={linkedin}>
+      <div className="my-4 hover:bg-stone-100 hover:p-3 cursor-pointer">
+        <div>
+          {/* <img src={image} alt={name} width={300} height={400} /> */}
+          <Image
+            src={image}
+            alt="Picture of the author"
+            width="300px"
+            height="300px"
+          />
+        </div>
+        <div>
+          <p className="my-2 font-bold sm:text-2xl ">{name}</p>
+          <p className="my-2 sm:text-xl">{caption}</p>
+        </div>
       </div>
-      <div className="h-40 pt-8 sm:pt-48 md:pt-20">
-        <p className="my-2 font-bold sm:text-2xl ">{name}</p>
-        <p className="my-2 sm:text-xl">{caption}</p>
-      </div>
-    </div>
+    </Link>
   );
 };
 
@@ -63,7 +71,7 @@ function Hero() {
             />
           </svg>
 
-          <p className="text-5xl md:text-7xl mx-auto font-bold text-center flex mb-6">
+          <p className="text-5xl md:text-6xl mx-auto font-bold text-center flex mb-6">
             LOTUS FOUNDATION
           </p>
           <p className="text-center md:text-xl max-w-sm flex mx-auto">
@@ -74,7 +82,7 @@ function Hero() {
       </div>
       <div className="flex flex-col mt-24 px-3 md:mx-0">
         <div className="flex flex-col mx-auto max-w-3xl">
-          <div className="mb-8 text-5xl mr-auto font-bold text-center flex ">
+          <div className="mb-4 text-5xl mr-auto font-bold text-center flex ">
             Our Mission
           </div>
           <div className="mx-auto mb-40 flex flex-col">
@@ -84,7 +92,7 @@ function Hero() {
               issues with local leaders.
             </p>
             <Link href="/about">
-              <p className="bg-red-100 rounded-xl py-3 text-xl font-bold max-w-xs text-center mt-4 cursor-pointer">
+              <p className="bg-red-50 hover_bg-red-200 rounded-xl py-3 text-xl font-bold max-w-xs text-center mt-4 cursor-pointer">
                 Learn More
               </p>
             </Link>
@@ -119,34 +127,40 @@ function Hero() {
             <TeamCard
               name="Sudarshan Damodharan"
               caption="Co-Founder"
+              linkedin="https://www.linkedin.com/in/sudarshan-damodharan/"
               image="https://media-exp1.licdn.com/dms/image/C4D03AQHfsrLS1r5pgw/profile-displayphoto-shrink_400_400/0/1637940455159?e=1668038400&v=beta&t=LindApAp-spoexnufpKKDJSukgnmvaQAOlSV8TUjSWE"
             />
             <TeamCard
               name="Aaditya Pore"
               caption="Co-Founder"
+              linkedin="https://www.linkedin.com/in/aadityapore/"
               image="https://media-exp1.licdn.com/dms/image/C5603AQFUpurxT4BF3w/profile-displayphoto-shrink_200_200/0/1637351765929?e=2147483647&v=beta&t=w2kp5nu9TeHNLJT0NBJUIEo8l_NJRKux8lcvQwf-Gdo"
             />
 
             <TeamCard
               name="Nihal Pandra"
               caption="Co-Founder"
-              image="IMG_0299 4.jpg"
+              linkedin="https://www.lotuscolorado.org/"
+              image="https://www.lotuscolorado.org/IMG_0299%204.jpg"
             />
 
             <TeamCard
               name="Kevin Buhler"
-              caption="CTO"
+              caption="Chief Technology Officer"
+              linkedin="https://www.linkedin.com/in/kevin-buhler/"
               image="https://media-exp1.licdn.com/dms/image/C5603AQHKhhxg-Bc4gA/profile-displayphoto-shrink_400_400/0/1662418732045?e=1668038400&v=beta&t=EUjZfjk4Id4MFFia_tzIxEa9-RvPGC-rsho3f1W2S9U"
             />
             <TeamCard
               name="Ian von Pechmann"
-              caption="CTO"
+              caption="Tech Lead"
+              linkedin="https://www.linkedin.com/in/ianvonpechmann/"
               image="https://media-exp1.licdn.com/dms/image/C5603AQE3vhcq3wB7KQ/profile-displayphoto-shrink_200_200/0/1657408058664?e=1665014400&v=beta&t=BP3DfOUXA550FgoIq1EMpoY4nvkUrMhD9ooVkvC_RUk"
             />
             <TeamCard
               name="Ahmed Zahid"
               caption="Project Manager"
-              image="IMG_0301 4.jpg"
+              linkedin="https://www.linkedin.com/in/ahmedzahid8/"
+              image="https://www.lotuscolorado.org/IMG_0301%204.jpg"
             />
           </div>
         </div>

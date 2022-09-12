@@ -11,6 +11,7 @@ const nextConfig = {
       "marketplace.canva.com",
       "c4.wallpaperflare.com",
       "media-exp1.licdn.com",
+      "www.lotuscolorado.org",
     ],
   },
 };
