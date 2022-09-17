@@ -151,6 +151,12 @@ function Hero() {
               image="https://media-exp1.licdn.com/dms/image/C5603AQHKhhxg-Bc4gA/profile-displayphoto-shrink_400_400/0/1662418732045?e=1668038400&v=beta&t=EUjZfjk4Id4MFFia_tzIxEa9-RvPGC-rsho3f1W2S9U"
             />
             <TeamCard
+              name="Sydney Strecker"
+              caption="Chief Financial Officer"
+              linkedin="https://www.linkedin.com/in/sydneystrecker/"
+              image="https://media-exp1.licdn.com/dms/image/C5603AQHas-a2kuOBNw/profile-displayphoto-shrink_400_400/0/1636953136291?e=1668643200&v=beta&t=UEm8NND3327Ds87b4coDXqG3bE-ZozHTxBrsf3_RQw8"
+            />
+            <TeamCard
               name="Ian von Pechmann"
               caption="Tech Lead"
               linkedin="https://www.linkedin.com/in/ianvonpechmann/"
