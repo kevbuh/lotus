@@ -3,10 +3,8 @@ import Link from "next/link";
 function NavBar() {
   return (
     <>
-      <div className="navbar bg-white md:text-xl font-semibold  pt-4">
+      <div className="navbar bg-white md:text-xl font-semibold py-4">
         <div className="flex-1">
-          {/* <a className="btn btn-ghost  md:text-2xl">Lotus Foundation</a>
-           */}
           <Link href="/">
             <svg
               width="52"
@@ -41,9 +39,9 @@ function NavBar() {
             </div>
           </Link>
         </div>
-        <div className="grid grid-cols-4 gap-2 md:gap-4 mr-4 md:mr-8">
+        <div className="grid grid-cols-3 gap-2 md:gap-8 mr-4 md:mr-8">
           <Link href="/about">
-            <a>About</a>
+            <a className="text-center hover:underline">About</a>
           </Link>
 
           {/* <li>
@@ -59,16 +57,19 @@ function NavBar() {
                 </ul>
               </div>
             </li> */}
-          <Link href="/donate">
-            <a className="">Donate</a>
-          </Link>
-
+          {/* 
           <Link href="/contact">
-            <a>Contact</a>
-          </Link>
+          <a>Contact</a>
+        </Link> */}
 
           <Link href="/volunteer">
-            <a>Volunteer</a>
+            <a className="text-center hover:underline">Volunteer</a>
+          </Link>
+
+          <Link href="https://donate.stripe.com/test_9AQcPB60h9yO46YdQQ">
+            <a className="p-4 rounded-xl bg-red-100 text-center hover:underline">
+              Donate
+            </a>
           </Link>
         </div>
       </div>

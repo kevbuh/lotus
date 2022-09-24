@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const InvolvedCard = ({ title, caption, buttonTitle }: any) => {
   return (
-    <div className="h-80">
-      <div className="h-40">
+    <div className="">
+      <div className="">
         <p className="my-2 font-bold text-lg md:text-3xl">{title}</p>
-        <p className="my-2 md:text-xl">{caption}</p>
+        <p className="mt-2 mb-4 md:text-xl">{caption}</p>
       </div>
       <Link href={`${buttonTitle.toLowerCase()}`}>
-        <button className="bg-red-50 rounded-xl py-3 text-xl font-bold mt-auto max-w-sm w-full hover:bg-red-200">
+        <button className="bg-red-50 rounded-xl py-3 text-xl font-bold mt-4 max-w-sm w-full hover:bg-red-200">
           {buttonTitle}
         </button>
       </Link>
@@ -85,14 +85,14 @@ function Hero() {
           <div className="mb-4 text-5xl mr-auto font-bold text-center flex ">
             Our Mission
           </div>
-          <div className="mx-auto mb-40 flex flex-col">
+          <div className="mx-auto mb-16 flex flex-col">
             <p className="my-4 text-xl">
               The Lotus Foundation provides a platform for students to engage in
               community service projects in neighboring communities and advocate
               issues with local leaders.
             </p>
             <Link href="/about">
-              <p className="bg-red-50 hover_bg-red-200 rounded-xl py-3 text-xl font-bold max-w-xs text-center mt-4 cursor-pointer">
+              <p className="bg-red-50 hover:bg-red-100 rounded-xl py-3 text-xl font-bold max-w-xs text-center mt-4 cursor-pointer">
                 Learn More
               </p>
             </Link>
@@ -104,24 +104,24 @@ function Hero() {
           <div className="grid grid-cols-3 gap-8 mx-auto max-w-3xl">
             <InvolvedCard
               title="Volunteer Opportunities"
-              caption="We need volunteers to"
+              caption="We need volunteers to help expand our impact. We depend on them for continued support of our mission in Boulder."
               buttonTitle="Volunteer"
             />
             <InvolvedCard
               title="Make a Donation"
-              caption="With your contributions, blha"
+              caption="Your contributions will help provide vital support toward advocating local issues for the local Boulder area."
               buttonTitle="Donate"
             />
 
             <InvolvedCard
-              title="Advocate"
-              caption="Join our advocacy group"
+              title="Advocate &nbsp; Today"
+              caption="Join our advocacy group so you can learn and act on how you can help create change in our community. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "
               buttonTitle="Advocate"
             />
           </div>
         </div>
 
-        <div className="flex flex-col mx-auto pt-16 pb-32">
+        <div className="flex flex-col mx-auto pt-32 pb-32">
           <p className="mb-8 text-5xl mr-auto font-bold">Team Members</p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mx-auto max-w-3xl">
             <TeamCard

@@ -13,7 +13,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ["Josefin Sans", "ui-monospace", "Arial", "Segoe UI", "Roboto"],
+      sans: ["Work Sans", "ui-monospace", "Arial", "Segoe UI", "Roboto"],
     },
   },
   plugins: [require("daisyui")],
