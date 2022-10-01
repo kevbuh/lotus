@@ -164,7 +164,7 @@ function Hero() {
             />
             <TeamCard
               name="Ahmed Zahid"
-              caption="Project Manager"
+              caption="Project Manager "
               linkedin="https://www.linkedin.com/in/ahmedzahid8/"
               image="https://www.lotuscolorado.org/IMG_0301%204.jpg"
             />
