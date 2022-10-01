@@ -10,7 +10,7 @@ function Volunteer() {
         </p>
 
         <div className="flex flex-col max-w-3xl">
-          <p className="text-4xl mb-4 ">Who You'll Help</p>
+          <p className="text-4xl mb-4 ">Who You&apos;ll Help</p>
           <p className="text-xl mb-24 ">
             We help a broad range of people all throughout the Boulder area.
             From the unhoused population, to the brightest young learners, we
