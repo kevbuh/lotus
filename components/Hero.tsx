@@ -128,13 +128,13 @@ function Hero() {
               name="Sudarshan Damodharan"
               caption="Co-Founder"
               linkedin="https://www.linkedin.com/in/sudarshan-damodharan/"
-              image="https://media-exp1.licdn.com/dms/image/C4D03AQHfsrLS1r5pgw/profile-displayphoto-shrink_400_400/0/1637940455159?e=1668038400&v=beta&t=LindApAp-spoexnufpKKDJSukgnmvaQAOlSV8TUjSWE"
+              image="https://www.colorado.edu/cusg/sites/default/files/styles/large_square_thumbnail/public/callout/Sudarshan_0.jpg?itok=b_RsDZRf"
             />
             <TeamCard
               name="Aaditya Pore"
               caption="Co-Founder"
               linkedin="https://www.linkedin.com/in/aadityapore/"
-              image="https://media-exp1.licdn.com/dms/image/C5603AQFUpurxT4BF3w/profile-displayphoto-shrink_200_200/0/1637351765929?e=2147483647&v=beta&t=w2kp5nu9TeHNLJT0NBJUIEo8l_NJRKux8lcvQwf-Gdo"
+              image="https://media.licdn.com/dms/image/D5603AQHRJVUcRMXJuw/profile-displayphoto-shrink_800_800/0/1674782202961?e=2147483647&v=beta&t=t52SG8eHupZ0M7_AmqilYqS2jiT1Ms37WhPYTzSyBiI"
             />
 
             <TeamCard
@@ -148,19 +148,19 @@ function Hero() {
               name="Kevin Buhler"
               caption="Chief Technology Officer"
               linkedin="https://www.linkedin.com/in/kevin-buhler/"
-              image="https://media-exp1.licdn.com/dms/image/C5603AQHKhhxg-Bc4gA/profile-displayphoto-shrink_400_400/0/1662418732045?e=1668038400&v=beta&t=EUjZfjk4Id4MFFia_tzIxEa9-RvPGC-rsho3f1W2S9U"
+              image="https://media.licdn.com/dms/image/D5603AQHmCeGif69IMg/profile-displayphoto-shrink_400_400/0/1677097124279?e=1682553600&v=beta&t=loeNWYL8ikyuCBKvVYwFhK29xb52hH0WKebZg6By8WM"
             />
             <TeamCard
               name="Sydney Strecker"
               caption="Chief Financial Officer"
               linkedin="https://www.linkedin.com/in/sydneystrecker/"
-              image="https://media-exp1.licdn.com/dms/image/C5603AQHas-a2kuOBNw/profile-displayphoto-shrink_400_400/0/1636953136291?e=1668643200&v=beta&t=UEm8NND3327Ds87b4coDXqG3bE-ZozHTxBrsf3_RQw8"
+              image="https://media.licdn.com/dms/image/D5603AQEHVo6kaWbZOA/profile-displayphoto-shrink_800_800/0/1672696125274?e=2147483647&v=beta&t=y8tokPUC8wjmxO41BYwNTYEBoPxAdFJrnhK9epwXDi8"
             />
             <TeamCard
               name="Ian von Pechmann"
               caption="Tech Lead"
               linkedin="https://www.linkedin.com/in/ianvonpechmann/"
-              image="https://media-exp1.licdn.com/dms/image/C5603AQE3vhcq3wB7KQ/profile-displayphoto-shrink_200_200/0/1657408058664?e=1665014400&v=beta&t=BP3DfOUXA550FgoIq1EMpoY4nvkUrMhD9ooVkvC_RUk"
+              image="https://media.licdn.com/dms/image/C5603AQE3vhcq3wB7KQ/profile-displayphoto-shrink_200_200/0/1657408058664?e=1681344000&v=beta&t=2CgtfgURNaahHshbl-8qrFhk6oX5sFGIpFhTg8PREYM"
             />
             <TeamCard
               name="Ahmed Zahid"
